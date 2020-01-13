@@ -5,6 +5,11 @@ public class MainApp {
 	public static void main(String[] args) {
 
 		// System.out.println("Привіт!");
+		System.out.println("Parameter length: "+args.length);
+		if(args.length>0)
+		{
+			System.out.println(args[0]);
+		}
 		try {
 			Scanner in = new Scanner(System.in);
 			int[] nums = new int[5];
